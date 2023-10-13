@@ -1,0 +1,10 @@
+sfc /scannow [unhidden]
+chkdsk C: /f /r [unhidden]
+C:\Windows\System32\SystemPropertiesAdvanced.exe [unhidden][noAdmin][autoclose]
+[empty lines are ignored]
+ping www.jvr.de [unhidden][noAdmin][autoclose][a test]
+ping www.jvr.de [noAdmin][a test]
+
+
+
+
