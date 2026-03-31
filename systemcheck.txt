@@ -1,0 +1,17 @@
+sfc /scannow [unhidden]
+chkdsk C: /f /r [unhidden]
+chkntfs /D [unhidden]
+chkntfs /C C:[unhidden]
+shutdown /s /f /t 3
+C:\Windows\System32\SystemPropertiesAdvanced.exe [unhidden][noAdmin][autoclose]
+netstat -bn [unhidden]
+ncpa.cpl
+ipconfig /flushdns  [unhidden]
+netsh winsock reset  [unhidden]
+DISM /Online /Cleanup-Image /CheckHealth [unhidden]
+DISM /Online /Cleanup-Image /ScanHealth [unhidden]
+DISM /Online /Cleanup-Image /RestoreHealth [unhidden]
+
+
+
+
